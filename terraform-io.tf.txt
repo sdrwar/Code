@@ -1,0 +1,9 @@
+terraform {
+  cloud {
+    organization = "sdrwar"
+
+    workspaces {
+      name = "example-workspace"
+    }
+  }
+}
